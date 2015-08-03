@@ -72,10 +72,10 @@ public class ForgotPasswordTest extends TestBase {
 						+ "subsequent page hasn't been displayed.");
 			}
 
-			// Verify the message content ï¿½Email with further instructions about
+			// Verify the message content ‘Email with further instructions about
 			// password
-			// reset has been sentï¿½ is displayed .
-			Reporter.log("Verify that ï¿½Email with further instructions about password reset "
+			// reset has been sent’ is displayed .
+			Reporter.log("Verify that ‘Email with further instructions about password reset "
 					+ "has been sent' is displayed");
 			 WebElement msgText = (new WebDriverWait(driver, 30))
 			 .until(ExpectedConditions.visibilityOf(WebUIAutomation.getObject("MSG_EmailSent_PASSWORDRESET")));
