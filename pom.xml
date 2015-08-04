@@ -83,6 +83,9 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			 <goals>
+                 <goal>compile</goal>
+             </goals>
 			</plugin>
 		</plugins>
 	</build>
