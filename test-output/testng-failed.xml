@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mrosupply.automation.NoDuplicateItemInShoppingCartTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="doIHaveToSkip"/>
+          <include name="testNoDuplicateItemInShoppingCart"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.NoDuplicateItemInShoppingCartTest -->
+      <class name="com.mrosupply.automation.DeleteItemFromShoppingCartTest">
+        <methods>
+          <include name="testDeleteItemFromShoppingCartTest"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.DeleteItemFromShoppingCartTest -->
+      <class name="com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest">
+        <methods>
+          <include name="testItemsInCartFromProductDetailsPage"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest -->
+      <class name="com.mrosupply.automation.AddItemToShoppingCartTest">
+        <methods>
+          <include name="testAddItemToShoppingCartTest"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.AddItemToShoppingCartTest -->
+      <class name="com.mrosupply.automation.AddQtyToCart">
+        <methods>
+          <include name="testAddQtyToCart" invocation-numbers="0 1 2 3 4"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.AddQtyToCart -->
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnlyTest">
+        <methods>
+          <include name="doIHaveToSkip"/>
+          <include name="incrementsOfQuantityOnlyTest"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnlyTest -->
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test">
+        <methods>
+          <include name="testIncrementsOfQuantityOnly_1"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test -->
+      <class name="com.mrosupply.automation.RegistrationProcessTest">
+        <methods>
+          <include name="testRegistrationProcess" invocation-numbers="0"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.RegistrationProcessTest -->
+      <class name="com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest">
+        <methods>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest -->
+      <class name="com.mrosupply.automation.ForgotPasswordTest">
+        <methods>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.mrosupply.automation.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

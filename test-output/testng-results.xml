@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="12" total="14" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Sign-in button]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Click  Here']]>
+    </line>
+    <line>
+      <![CDATA[Enter Mail Id]]>
+    </line>
+    <line>
+      <![CDATA[click on Reset button]]>
+    </line>
+    <line>
+      <![CDATA[Verify that ‘Email with further instructions about password reset has been sent' is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Click 'Register' ]]>
+    </line>
+    <line>
+      <![CDATA[User info : Filling  info for Registration step 1]]>
+    </line>
+    <line>
+      <![CDATA[User info : Successfully Filled  info for Registration step 1]]>
+    </line>
+    <line>
+      <![CDATA[Click Next]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Brands link ]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record First item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands Link ]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Emptying the cart before the test]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that 'Product added to your cart' message displays]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Brands' link]]>
+    </line>
+    <line>
+      <![CDATA[Click 'Acme' link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Change item qty to 0]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to MRO Supply Website]]>
+    </line>
+    <line>
+      <![CDATA[Search after an Obsolete item (our case 672155 )]]>
+    </line>
+    <line>
+      <![CDATA[Try to add item to cart and Verify that is not possible]]>
+    </line>
+    <line>
+      <![CDATA[Finishing the 8th test Unable To Add Obsolete Item In The Cart]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record First item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Searching for the Product with the ID 2265610 ]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on View Cart]]>
+    </line>
+    <line>
+      <![CDATA[Change item qty to 20]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="551938" started-at="2015-08-04T05:55:09Z" finished-at="2015-08-04T06:04:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="551938" started-at="2015-08-04T05:55:09Z" finished-at="2015-08-04T06:04:21Z">
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test">
+        <test-method status="FAIL" signature="testIncrementsOfQuantityOnly_1()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test@3d8c7aca]" name="testIncrementsOfQuantityOnly_1" duration-ms="25951" started-at="2015-08-04T11:33:18Z" finished-at="2015-08-04T11:33:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Text has not been successfully added into qty_search field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Text has not been successfully added into qty_search field
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test.testIncrementsOfQuantityOnly_1(IncrementsOfQuantityOnly_1_Test.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Brands' link]]>
+            </line>
+            <line>
+              <![CDATA[Click 'Acme' link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Change item qty to 0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIncrementsOfQuantityOnly_1 -->
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test -->
+      <class name="com.mrosupply.automation.ForgotPasswordTest">
+        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:com.mrosupply.automation.ForgotPasswordTest@380fb434]" name="testForgotPassword" duration-ms="22421" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Sign-in button]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Click  Here']]>
+            </line>
+            <line>
+              <![CDATA[Enter Mail Id]]>
+            </line>
+            <line>
+              <![CDATA[click on Reset button]]>
+            </line>
+            <line>
+              <![CDATA[Verify that ‘Email with further instructions about password reset has been sent' is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+      </class> <!-- com.mrosupply.automation.ForgotPasswordTest -->
+      <class name="com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest">
+        <test-method status="FAIL" signature="testItemsInCartFromProductDetailsPage()[pri:0, instance:com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest@22f71333]" name="testItemsInCartFromProductDetailsPage" duration-ms="8373" started-at="2015-08-04T11:33:50Z" finished-at="2015-08-04T11:33:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest.testItemsInCartFromProductDetailsPage(ItemsInCartFromProductDetailsPageTest.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record First item’s item id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItemsInCartFromProductDetailsPage -->
+      </class> <!-- com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest -->
+      <class name="com.mrosupply.automation.AddItemToShoppingCartTest">
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.AddItemToShoppingCartTest@13969fbe]" name="doIHaveToSkip" is-config="true" duration-ms="34" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="doIHaveToSkip" is-config="true" duration-ms="7" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.DeleteItemFromShoppingCartTest@6cd8737]" name="doIHaveToSkip" is-config="true" duration-ms="4" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.ForgotPasswordTest@380fb434]" name="doIHaveToSkip" is-config="true" duration-ms="1" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnlyTest@21bcffb5]" name="doIHaveToSkip" is-config="true" duration-ms="13" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test@3d8c7aca]" name="doIHaveToSkip" is-config="true" duration-ms="2" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest@22f71333]" name="doIHaveToSkip" is-config="true" duration-ms="2" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="doIHaveToSkip" is-config="true" duration-ms="1" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.RegistrationProcessTest@1a407d53]" name="doIHaveToSkip" is-config="true" duration-ms="1" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest@5ebec15]" name="doIHaveToSkip" is-config="true" duration-ms="2" started-at="2015-08-04T11:25:09Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="FAIL" signature="testAddItemToShoppingCartTest()[pri:0, instance:com.mrosupply.automation.AddItemToShoppingCartTest@13969fbe]" name="testAddItemToShoppingCartTest" duration-ms="6356" started-at="2015-08-04T11:26:31Z" finished-at="2015-08-04T11:26:37Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddItemToShoppingCartTest.testAddItemToShoppingCartTest(AddItemToShoppingCartTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands Link ]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddItemToShoppingCartTest -->
+      </class> <!-- com.mrosupply.automation.AddItemToShoppingCartTest -->
+      <class name="com.mrosupply.automation.NoDuplicateItemInShoppingCartTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="initialize" is-config="true" duration-ms="19984" started-at="2015-08-04T11:24:49Z" finished-at="2015-08-04T11:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="testNoDuplicateItemInShoppingCart()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="testNoDuplicateItemInShoppingCart" duration-ms="289456" started-at="2015-08-04T11:26:37Z" finished-at="2015-08-04T11:31:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.NoDuplicateItemInShoppingCartTest.testNoDuplicateItemInShoppingCart(NoDuplicateItemInShoppingCartTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Emptying the cart before the test]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that 'Product added to your cart' message displays]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoDuplicateItemInShoppingCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="closeBrowser" is-config="true" duration-ms="8100" started-at="2015-08-04T11:34:21Z" finished-at="2015-08-04T11:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mrosupply.automation.NoDuplicateItemInShoppingCartTest -->
+      <class name="com.mrosupply.automation.RegistrationProcessTest">
+        <test-method status="FAIL" signature="testRegistrationProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mrosupply.automation.RegistrationProcessTest@1a407d53]" name="testRegistrationProcess" duration-ms="27837" started-at="2015-08-04T11:25:32Z" data-provider="getData" finished-at="2015-08-04T11:26:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[earth533]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[earth533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abhik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Khandelwal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Btm Layout]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Anchorage]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[99501]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[2nd step - Text has not been entered into FirstName text field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 2nd step - Text has not been entered into FirstName text field
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.mrosupply.automation.RegistrationProcessTest.testRegistrationProcess(RegistrationProcessTest.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click 'Register' ]]>
+            </line>
+            <line>
+              <![CDATA[User info : Filling  info for Registration step 1]]>
+            </line>
+            <line>
+              <![CDATA[User info : Successfully Filled  info for Registration step 1]]>
+            </line>
+            <line>
+              <![CDATA[Click Next]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegistrationProcess -->
+      </class> <!-- com.mrosupply.automation.RegistrationProcessTest -->
+      <class name="com.mrosupply.automation.AddQtyToCart">
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="36984" started-at="2015-08-04T11:31:27Z" data-provider="getData" finished-at="2015-08-04T11:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception
+ null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception
+ null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="34711" started-at="2015-08-04T11:32:04Z" data-provider="getData" finished-at="2015-08-04T11:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception
+ null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception
+ null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="7266" started-at="2015-08-04T11:32:39Z" data-provider="getData" finished-at="2015-08-04T11:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception
+ null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception
+ null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="23258" started-at="2015-08-04T11:32:46Z" data-provider="getData" finished-at="2015-08-04T11:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception
+ null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception
+ null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="8808" started-at="2015-08-04T11:33:09Z" data-provider="getData" finished-at="2015-08-04T11:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception
+ null expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception
+ null expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+      </class> <!-- com.mrosupply.automation.AddQtyToCart -->
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnlyTest">
+        <test-method status="FAIL" signature="incrementsOfQuantityOnlyTest()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnlyTest@21bcffb5]" name="incrementsOfQuantityOnlyTest" duration-ms="23195" started-at="2015-08-04T11:33:58Z" finished-at="2015-08-04T11:34:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Qty has not been changed successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Qty has not been changed successfully
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.mrosupply.automation.IncrementsOfQuantityOnlyTest.incrementsOfQuantityOnlyTest(IncrementsOfQuantityOnlyTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Searching for the Product with the ID 2265610 ]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on View Cart]]>
+            </line>
+            <line>
+              <![CDATA[Change item qty to 20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- incrementsOfQuantityOnlyTest -->
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnlyTest -->
+      <class name="com.mrosupply.automation.DeleteItemFromShoppingCartTest">
+        <test-method status="FAIL" signature="testDeleteItemFromShoppingCartTest()[pri:0, instance:com.mrosupply.automation.DeleteItemFromShoppingCartTest@6cd8737]" name="testDeleteItemFromShoppingCartTest" duration-ms="31216" started-at="2015-08-04T11:26:00Z" finished-at="2015-08-04T11:26:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Caught Exception expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Caught Exception expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.DeleteItemFromShoppingCartTest.testDeleteItemFromShoppingCartTest(DeleteItemFromShoppingCartTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Brands link ]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record First item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteItemFromShoppingCartTest -->
+      </class> <!-- com.mrosupply.automation.DeleteItemFromShoppingCartTest -->
+      <class name="com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest">
+        <test-method status="PASS" signature="testUnableToAddObsoleteItemInTheCart()[pri:0, instance:com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest@5ebec15]" name="testUnableToAddObsoleteItemInTheCart" duration-ms="5900" started-at="2015-08-04T11:33:44Z" finished-at="2015-08-04T11:33:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to MRO Supply Website]]>
+            </line>
+            <line>
+              <![CDATA[Search after an Obsolete item (our case 672155 )]]>
+            </line>
+            <line>
+              <![CDATA[Try to add item to cart and Verify that is not possible]]>
+            </line>
+            <line>
+              <![CDATA[Finishing the 8th test Unable To Add Obsolete Item In The Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUnableToAddObsoleteItemInTheCart -->
+      </class> <!-- com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
