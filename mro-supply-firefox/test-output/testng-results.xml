@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="14" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Sign-in button]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Click  Here']]>
+    </line>
+    <line>
+      <![CDATA[Enter Mail Id]]>
+    </line>
+    <line>
+      <![CDATA[click on Reset button]]>
+    </line>
+    <line>
+      <![CDATA[Verify that ‘Email with further instructions about password reset has been sent' is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Click 'Register' ]]>
+    </line>
+    <line>
+      <![CDATA[User info : Filling  info for Registration step 1]]>
+    </line>
+    <line>
+      <![CDATA[User info : Successfully Filled  info for Registration step 1]]>
+    </line>
+    <line>
+      <![CDATA[Click Next]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Info:  Successfully Filled info for Registration step 2]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+    </line>
+    <line>
+      <![CDATA[Click Next]]>
+    </line>
+    <line>
+      <![CDATA[Click Register button]]>
+    </line>
+    <line>
+      <![CDATA[Verify text present: 'Registration has been completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[SIgning out]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Brands link ]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record First item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[ Verifying that cart is empty or not]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands Link ]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check Add to cart button is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Add to cart' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify item id cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Emptying the cart before the test]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that 'Product added to your cart' message displays]]>
+    </line>
+    <line>
+      <![CDATA[Refresh page so that add to cart icon gets to previous state]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching quantity]]>
+    </line>
+    <line>
+      <![CDATA[Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart is empty]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching quantity]]>
+    </line>
+    <line>
+      <![CDATA[Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart is empty]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching quantity]]>
+    </line>
+    <line>
+      <![CDATA[Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart is empty]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching quantity]]>
+    </line>
+    <line>
+      <![CDATA[Remove from cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart is empty]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Check QTY input field is displayed or not]]>
+    </line>
+    <line>
+      <![CDATA[Add quantity for the first item]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching recorded items id]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart contents matching quantity]]>
+    </line>
+    <line>
+      <![CDATA[Click on 'Brands' link]]>
+    </line>
+    <line>
+      <![CDATA[Click 'Acme' link]]>
+    </line>
+    <line>
+      <![CDATA[Record first item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart button]]>
+    </line>
+    <line>
+      <![CDATA[Change item qty to 0]]>
+    </line>
+    <line>
+      <![CDATA[Click Checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Attention, message displays: Minimum Order Quantity for Item #884714 is 1]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to MRO Supply Website]]>
+    </line>
+    <line>
+      <![CDATA[Search after an Obsolete item (our case 672155 )]]>
+    </line>
+    <line>
+      <![CDATA[Try to add item to cart and Verify that is not possible]]>
+    </line>
+    <line>
+      <![CDATA[Finishing the 8th test Unable To Add Obsolete Item In The Cart]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to brands link]]>
+    </line>
+    <line>
+      <![CDATA[Click Acme link]]>
+    </line>
+    <line>
+      <![CDATA[Record First item’s item id]]>
+    </line>
+    <line>
+      <![CDATA[Click to open First item from list]]>
+    </line>
+    <line>
+      <![CDATA[Click Add To Cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart opens]]>
+    </line>
+    <line>
+      <![CDATA[Verify that cart matching item ID added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Delete item from cart]]>
+    </line>
+    <line>
+      <![CDATA[Verify cart containing 0 items]]>
+    </line>
+    <line>
+      <![CDATA[Searching for the Product with the ID 2265610 ]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Add to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on View Cart]]>
+    </line>
+    <line>
+      <![CDATA[Change item qty to 20]]>
+    </line>
+    <line>
+      <![CDATA[Click on Checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Attention message displays - Minimum Order Quantity for Item #2265610 is 25]]>
+    </line>
+    <line>
+      <![CDATA[Change item qty to 32]]>
+    </line>
+    <line>
+      <![CDATA[Click on Checkout button]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Attention message displays:This product can only be purchased in increments of 25]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="371159" started-at="2015-08-05T09:15:01Z" finished-at="2015-08-05T09:21:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="371159" started-at="2015-08-05T09:15:01Z" finished-at="2015-08-05T09:21:12Z">
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test">
+        <test-method status="PASS" signature="testIncrementsOfQuantityOnly_1()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test@3d8c7aca]" name="testIncrementsOfQuantityOnly_1" duration-ms="23322" started-at="2015-08-05T14:49:29Z" finished-at="2015-08-05T14:49:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on 'Brands' link]]>
+            </line>
+            <line>
+              <![CDATA[Click 'Acme' link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart button]]>
+            </line>
+            <line>
+              <![CDATA[Change item qty to 0]]>
+            </line>
+            <line>
+              <![CDATA[Click Checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Attention, message displays: Minimum Order Quantity for Item #884714 is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIncrementsOfQuantityOnly_1 -->
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test -->
+      <class name="com.mrosupply.automation.ForgotPasswordTest">
+        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:com.mrosupply.automation.ForgotPasswordTest@380fb434]" name="testForgotPassword" duration-ms="22574" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Sign-in button]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Click  Here']]>
+            </line>
+            <line>
+              <![CDATA[Enter Mail Id]]>
+            </line>
+            <line>
+              <![CDATA[click on Reset button]]>
+            </line>
+            <line>
+              <![CDATA[Verify that ‘Email with further instructions about password reset has been sent' is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+      </class> <!-- com.mrosupply.automation.ForgotPasswordTest -->
+      <class name="com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest">
+        <test-method status="PASS" signature="testItemsInCartFromProductDetailsPage()[pri:0, instance:com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest@22f71333]" name="testItemsInCartFromProductDetailsPage" duration-ms="30523" started-at="2015-08-05T14:50:09Z" finished-at="2015-08-05T14:50:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record First item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Click to open First item from list]]>
+            </line>
+            <line>
+              <![CDATA[Click Add To Cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart opens]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart matching item ID added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Delete item from cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart containing 0 items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItemsInCartFromProductDetailsPage -->
+      </class> <!-- com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest -->
+      <class name="com.mrosupply.automation.AddItemToShoppingCartTest">
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.AddItemToShoppingCartTest@13969fbe]" name="doIHaveToSkip" is-config="true" duration-ms="16" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.DeleteItemFromShoppingCartTest@6cd8737]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.ForgotPasswordTest@380fb434]" name="doIHaveToSkip" is-config="true" duration-ms="15" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest@22f71333]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.RegistrationProcessTest@1a407d53]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnlyTest@21bcffb5]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest@5ebec15]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test@3d8c7aca]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="doIHaveToSkip()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="doIHaveToSkip" is-config="true" duration-ms="0" started-at="2015-08-05T14:45:01Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIHaveToSkip -->
+        <test-method status="PASS" signature="testAddItemToShoppingCartTest()[pri:0, instance:com.mrosupply.automation.AddItemToShoppingCartTest@13969fbe]" name="testAddItemToShoppingCartTest" duration-ms="18458" started-at="2015-08-05T14:46:25Z" finished-at="2015-08-05T14:46:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands Link ]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check Add to cart button is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Click on 'Add to cart' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify item id cart contents matching recorded items id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddItemToShoppingCartTest -->
+      </class> <!-- com.mrosupply.automation.AddItemToShoppingCartTest -->
+      <class name="com.mrosupply.automation.RegistrationProcessTest">
+        <test-method status="PASS" signature="testRegistrationProcess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mrosupply.automation.RegistrationProcessTest@1a407d53]" name="testRegistrationProcess" duration-ms="29065" started-at="2015-08-05T14:45:24Z" data-provider="getData" finished-at="2015-08-05T14:45:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[earth533]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[earth533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Abhik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Khandelwal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Btm Layout]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Anchorage]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[99501]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click 'Register' ]]>
+            </line>
+            <line>
+              <![CDATA[User info : Filling  info for Registration step 1]]>
+            </line>
+            <line>
+              <![CDATA[User info : Successfully Filled  info for Registration step 1]]>
+            </line>
+            <line>
+              <![CDATA[Click Next]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Info:  Successfully Filled info for Registration step 2]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Info:  Fill in info for Registration step 2]]>
+            </line>
+            <line>
+              <![CDATA[Click Next]]>
+            </line>
+            <line>
+              <![CDATA[Click Register button]]>
+            </line>
+            <line>
+              <![CDATA[Verify text present: 'Registration has been completed successfully]]>
+            </line>
+            <line>
+              <![CDATA[SIgning out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegistrationProcess -->
+      </class> <!-- com.mrosupply.automation.RegistrationProcessTest -->
+      <class name="com.mrosupply.automation.NoDuplicateItemInShoppingCartTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="initialize" is-config="true" duration-ms="14271" started-at="2015-08-05T14:44:47Z" finished-at="2015-08-05T14:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testNoDuplicateItemInShoppingCart()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="testNoDuplicateItemInShoppingCart" duration-ms="29979" started-at="2015-08-05T14:46:44Z" finished-at="2015-08-05T14:47:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Emptying the cart before the test]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that 'Product added to your cart' message displays]]>
+            </line>
+            <line>
+              <![CDATA[Refresh page so that add to cart icon gets to previous state]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoDuplicateItemInShoppingCart -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:com.mrosupply.automation.NoDuplicateItemInShoppingCartTest@7a0ac6e3]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-08-05T14:51:12Z" finished-at="2015-08-05T14:51:12Z">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[<HTML>
+<HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Access Denied</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: You are not allowed to access the document you requested.
+</B></FONT>
+<HR>
+</BODY>
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Shankar-pc', ip: '192.168.1.15', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=a1f19144c0d4b8d44ba70b68356143df19f101d4, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1f19144c0d4b8d44ba70b68356143df19f101d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: <HTML>
+<HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white" FGCOLOR="black">
+<H1>Access Denied</H1>
+<HR>
+
+<FONT FACE="Helvetica,Arial"><B>
+Description: You are not allowed to access the document you requested.
+</B></FONT>
+<HR>
+</BODY>
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Shankar-pc', ip: '192.168.1.15', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=a1f19144c0d4b8d44ba70b68356143df19f101d4, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1f19144c0d4b8d44ba70b68356143df19f101d4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:474)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy8.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:199)
+	at com.mrosupply.automation.TestBase.closeBrowser(TestBase.java:321)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mrosupply.automation.NoDuplicateItemInShoppingCartTest -->
+      <class name="com.mrosupply.automation.AddQtyToCart">
+        <test-method status="PASS" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="27911" started-at="2015-08-05T14:47:14Z" data-provider="getData" finished-at="2015-08-05T14:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching quantity]]>
+            </line>
+            <line>
+              <![CDATA[Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart is empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="PASS" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="30293" started-at="2015-08-05T14:47:42Z" data-provider="getData" finished-at="2015-08-05T14:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching quantity]]>
+            </line>
+            <line>
+              <![CDATA[Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart is empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="PASS" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="29195" started-at="2015-08-05T14:48:12Z" data-provider="getData" finished-at="2015-08-05T14:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching quantity]]>
+            </line>
+            <line>
+              <![CDATA[Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart is empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="PASS" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="27837" started-at="2015-08-05T14:48:41Z" data-provider="getData" finished-at="2015-08-05T14:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching quantity]]>
+            </line>
+            <line>
+              <![CDATA[Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify that cart is empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+        <test-method status="FAIL" signature="testAddQtyToCart(java.lang.String)[pri:0, instance:com.mrosupply.automation.AddQtyToCart@6aaa5eb0]" name="testAddQtyToCart" duration-ms="19924" started-at="2015-08-05T14:49:09Z" data-provider="getData" finished-at="2015-08-05T14:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value inside quantity is not matching to the number of quantity added in the cart expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value inside quantity is not matching to the number of quantity added in the cart expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to brands link]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record first item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[Check QTY input field is displayed or not]]>
+            </line>
+            <line>
+              <![CDATA[Add quantity for the first item]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching quantity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddQtyToCart -->
+      </class> <!-- com.mrosupply.automation.AddQtyToCart -->
+      <class name="com.mrosupply.automation.IncrementsOfQuantityOnlyTest">
+        <test-method status="FAIL" signature="incrementsOfQuantityOnlyTest()[pri:0, instance:com.mrosupply.automation.IncrementsOfQuantityOnlyTest@21bcffb5]" name="incrementsOfQuantityOnlyTest" duration-ms="32238" started-at="2015-08-05T14:50:40Z" finished-at="2015-08-05T14:51:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This product can only be purchased in increments of 25 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This product can only be purchased in increments of 25 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.mrosupply.automation.IncrementsOfQuantityOnlyTest.incrementsOfQuantityOnlyTest(IncrementsOfQuantityOnlyTest.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Searching for the Product with the ID 2265610 ]]>
+            </line>
+            <line>
+              <![CDATA[Click On Search ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Add to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on View Cart]]>
+            </line>
+            <line>
+              <![CDATA[Change item qty to 20]]>
+            </line>
+            <line>
+              <![CDATA[Click on Checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Attention message displays - Minimum Order Quantity for Item #2265610 is 25]]>
+            </line>
+            <line>
+              <![CDATA[Change item qty to 32]]>
+            </line>
+            <line>
+              <![CDATA[Click on Checkout button]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Attention message displays:This product can only be purchased in increments of 25]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- incrementsOfQuantityOnlyTest -->
+      </class> <!-- com.mrosupply.automation.IncrementsOfQuantityOnlyTest -->
+      <class name="com.mrosupply.automation.DeleteItemFromShoppingCartTest">
+        <test-method status="PASS" signature="testDeleteItemFromShoppingCartTest()[pri:0, instance:com.mrosupply.automation.DeleteItemFromShoppingCartTest@6cd8737]" name="testDeleteItemFromShoppingCartTest" duration-ms="32745" started-at="2015-08-05T14:45:53Z" finished-at="2015-08-05T14:46:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Brands link ]]>
+            </line>
+            <line>
+              <![CDATA[Click Acme link]]>
+            </line>
+            <line>
+              <![CDATA[Record First item’s item id]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Cart]]>
+            </line>
+            <line>
+              <![CDATA[Verify cart contents matching recorded items id]]>
+            </line>
+            <line>
+              <![CDATA[Remove from cart]]>
+            </line>
+            <line>
+              <![CDATA[ Verifying that cart is empty or not]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteItemFromShoppingCartTest -->
+      </class> <!-- com.mrosupply.automation.DeleteItemFromShoppingCartTest -->
+      <class name="com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest">
+        <test-method status="PASS" signature="testUnableToAddObsoleteItemInTheCart()[pri:0, instance:com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest@5ebec15]" name="testUnableToAddObsoleteItemInTheCart" duration-ms="16952" started-at="2015-08-05T14:49:52Z" finished-at="2015-08-05T14:50:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to MRO Supply Website]]>
+            </line>
+            <line>
+              <![CDATA[Search after an Obsolete item (our case 672155 )]]>
+            </line>
+            <line>
+              <![CDATA[Try to add item to cart and Verify that is not possible]]>
+            </line>
+            <line>
+              <![CDATA[Finishing the 8th test Unable To Add Obsolete Item In The Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUnableToAddObsoleteItemInTheCart -->
+      </class> <!-- com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

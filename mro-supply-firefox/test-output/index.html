@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Automation_Workspace_New\mro-supply\config\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.IncrementsOfQuantityOnlyTest" hash-for-method="incrementsOfQuantityOnlyTest">incrementsOfQuantityOnlyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddQtyToCart" hash-for-method="testAddQtyToCart(10000)">testAddQtyToCart(10000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddItemToShoppingCartTest" hash-for-method="testAddItemToShoppingCartTest">testAddItemToShoppingCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddQtyToCart" hash-for-method="testAddQtyToCart(23)">testAddQtyToCart(23)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddQtyToCart" hash-for-method="testAddQtyToCart(5)">testAddQtyToCart(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddQtyToCart" hash-for-method="testAddQtyToCart(500)">testAddQtyToCart(500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.AddQtyToCart" hash-for-method="testAddQtyToCart(1000)">testAddQtyToCart(1000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.DeleteItemFromShoppingCartTest" hash-for-method="testDeleteItemFromShoppingCartTest">testDeleteItemFromShoppingCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.ForgotPasswordTest" hash-for-method="testForgotPassword">testForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test" hash-for-method="testIncrementsOfQuantityOnly_1">testIncrementsOfQuantityOnly_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest" hash-for-method="testItemsInCartFromProductDetailsPage">testItemsInCartFromProductDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.NoDuplicateItemInShoppingCartTest" hash-for-method="testNoDuplicateItemInShoppingCart">testNoDuplicateItemInShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.RegistrationProcessTest" hash-for-method="testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)">testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest" hash-for-method="testUnableToAddObsoleteItemInTheCart">testUnableToAddObsoleteItemInTheCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mrosupply.automation.AddQtyToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddQtyToCart(10000)">
+                  </a> <!-- testAddQtyToCart(10000) -->
+                  <span class="method-name">testAddQtyToCart</span>
+                  <span class="parameters">(10000)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Value inside quantity is not matching to the number of quantity added in the cart expected [true] but found [false]
+	at com.mrosupply.automation.AddQtyToCart.testAddQtyToCart(AddQtyToCart.java:152)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mrosupply.automation.IncrementsOfQuantityOnlyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="incrementsOfQuantityOnlyTest">
+                  </a> <!-- incrementsOfQuantityOnlyTest -->
+                  <span class="method-name">incrementsOfQuantityOnlyTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: This product can only be purchased in increments of 25 expected [true] but found [false]
+	at com.mrosupply.automation.IncrementsOfQuantityOnlyTest.incrementsOfQuantityOnlyTest(IncrementsOfQuantityOnlyTest.java:159)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.NoDuplicateItemInShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoDuplicateItemInShoppingCart">
+                  </a> <!-- testNoDuplicateItemInShoppingCart -->
+                  <span class="method-name">testNoDuplicateItemInShoppingCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.DeleteItemFromShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteItemFromShoppingCartTest">
+                  </a> <!-- testDeleteItemFromShoppingCartTest -->
+                  <span class="method-name">testDeleteItemFromShoppingCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testItemsInCartFromProductDetailsPage">
+                  </a> <!-- testItemsInCartFromProductDetailsPage -->
+                  <span class="method-name">testItemsInCartFromProductDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.AddItemToShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddItemToShoppingCartTest">
+                  </a> <!-- testAddItemToShoppingCartTest -->
+                  <span class="method-name">testAddItemToShoppingCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.AddQtyToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddQtyToCart(23)">
+                  </a> <!-- testAddQtyToCart(23) -->
+                  <span class="method-name">testAddQtyToCart</span>
+                  <span class="parameters">(23)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddQtyToCart(5)">
+                  </a> <!-- testAddQtyToCart(5) -->
+                  <span class="method-name">testAddQtyToCart</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddQtyToCart(500)">
+                  </a> <!-- testAddQtyToCart(500) -->
+                  <span class="method-name">testAddQtyToCart</span>
+                  <span class="parameters">(500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddQtyToCart(1000)">
+                  </a> <!-- testAddQtyToCart(1000) -->
+                  <span class="method-name">testAddQtyToCart</span>
+                  <span class="parameters">(1000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIncrementsOfQuantityOnly_1">
+                  </a> <!-- testIncrementsOfQuantityOnly_1 -->
+                  <span class="method-name">testIncrementsOfQuantityOnly_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnableToAddObsoleteItemInTheCart">
+                  </a> <!-- testUnableToAddObsoleteItemInTheCart -->
+                  <span class="method-name">testUnableToAddObsoleteItemInTheCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.RegistrationProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)">
+                  </a> <!-- testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501) -->
+                  <span class="method-name">testRegistrationProcess</span>
+                  <span class="parameters">(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mrosupply.automation.ForgotPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPassword">
+                  </a> <!-- testForgotPassword -->
+                  <span class="method-name">testForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation_Workspace_New\mro-supply\config\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mrosupply.automation.ForgotPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.RegistrationProcessTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.DeleteItemFromShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.AddItemToShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.NoDuplicateItemInShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.AddQtyToCart&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mrosupply.automation.IncrementsOfQuantityOnlyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDeleteItemFromShoppingCartTest')
+data.setCell(0, 2, 'com.mrosupply.automation.DeleteItemFromShoppingCartTest')
+data.setCell(0, 3, 32745);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'incrementsOfQuantityOnlyTest')
+data.setCell(1, 2, 'com.mrosupply.automation.IncrementsOfQuantityOnlyTest')
+data.setCell(1, 3, 32238);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testItemsInCartFromProductDetailsPage')
+data.setCell(2, 2, 'com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest')
+data.setCell(2, 3, 30523);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAddQtyToCart')
+data.setCell(3, 2, 'com.mrosupply.automation.AddQtyToCart')
+data.setCell(3, 3, 30293);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testNoDuplicateItemInShoppingCart')
+data.setCell(4, 2, 'com.mrosupply.automation.NoDuplicateItemInShoppingCartTest')
+data.setCell(4, 3, 29979);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAddQtyToCart')
+data.setCell(5, 2, 'com.mrosupply.automation.AddQtyToCart')
+data.setCell(5, 3, 29195);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegistrationProcess')
+data.setCell(6, 2, 'com.mrosupply.automation.RegistrationProcessTest')
+data.setCell(6, 3, 29065);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAddQtyToCart')
+data.setCell(7, 2, 'com.mrosupply.automation.AddQtyToCart')
+data.setCell(7, 3, 27911);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddQtyToCart')
+data.setCell(8, 2, 'com.mrosupply.automation.AddQtyToCart')
+data.setCell(8, 3, 27837);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testIncrementsOfQuantityOnly_1')
+data.setCell(9, 2, 'com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test')
+data.setCell(9, 3, 23322);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testForgotPassword')
+data.setCell(10, 2, 'com.mrosupply.automation.ForgotPasswordTest')
+data.setCell(10, 3, 22574);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddQtyToCart')
+data.setCell(11, 2, 'com.mrosupply.automation.AddQtyToCart')
+data.setCell(11, 3, 19924);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAddItemToShoppingCartTest')
+data.setCell(12, 2, 'com.mrosupply.automation.AddItemToShoppingCartTest')
+data.setCell(12, 3, 18458);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testUnableToAddObsoleteItemInTheCart')
+data.setCell(13, 2, 'com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest')
+data.setCell(13, 3, 16952);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddItemToShoppingCartTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands Link </span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check Add to cart button is displayed or not</span>
+                <span class="reporter-method-output">Click on 'Add to cart' button </span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify item id cart contents matching recorded items id</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddQtyToCart(23)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check QTY input field is displayed or not</span>
+                <span class="reporter-method-output">Add quantity for the first item</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Verify cart contents matching quantity</span>
+                <span class="reporter-method-output">Remove from cart</span>
+                <span class="reporter-method-output">Verify that cart is empty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddQtyToCart(5)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check QTY input field is displayed or not</span>
+                <span class="reporter-method-output">Add quantity for the first item</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Verify cart contents matching quantity</span>
+                <span class="reporter-method-output">Remove from cart</span>
+                <span class="reporter-method-output">Verify that cart is empty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testIncrementsOfQuantityOnly_1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on 'Brands' link</span>
+                <span class="reporter-method-output">Click 'Acme' link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart button</span>
+                <span class="reporter-method-output">Change item qty to 0</span>
+                <span class="reporter-method-output">Click Checkout button</span>
+                <span class="reporter-method-output">Verifying Attention, message displays: Minimum Order Quantity for Item #884714 is 1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testNoDuplicateItemInShoppingCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Emptying the cart before the test</span>
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Verify that 'Product added to your cart' message displays</span>
+                <span class="reporter-method-output">Refresh page so that add to cart icon gets to previous state</span>
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Add to cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddQtyToCart(500)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check QTY input field is displayed or not</span>
+                <span class="reporter-method-output">Add quantity for the first item</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Verify cart contents matching quantity</span>
+                <span class="reporter-method-output">Remove from cart</span>
+                <span class="reporter-method-output">Verify that cart is empty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUnableToAddObsoleteItemInTheCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to MRO Supply Website</span>
+                <span class="reporter-method-output">Search after an Obsolete item (our case 672155 )</span>
+                <span class="reporter-method-output">Try to add item to cart and Verify that is not possible</span>
+                <span class="reporter-method-output">Finishing the 8th test Unable To Add Obsolete Item In The Cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDeleteItemFromShoppingCartTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to Brands link </span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record First item’s item id</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Remove from cart</span>
+                <span class="reporter-method-output"> Verifying that cart is empty or not</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddQtyToCart(1000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check QTY input field is displayed or not</span>
+                <span class="reporter-method-output">Add quantity for the first item</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Verify cart contents matching quantity</span>
+                <span class="reporter-method-output">Remove from cart</span>
+                <span class="reporter-method-output">Verify that cart is empty</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testForgotPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Sign-in button</span>
+                <span class="reporter-method-output">Click on 'Click  Here'</span>
+                <span class="reporter-method-output">Enter Mail Id</span>
+                <span class="reporter-method-output">click on Reset button</span>
+                <span class="reporter-method-output">Verify that ‘Email with further instructions about password reset has been sent' is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testItemsInCartFromProductDetailsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record First item’s item id</span>
+                <span class="reporter-method-output">Click to open First item from list</span>
+                <span class="reporter-method-output">Click Add To Cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify that cart opens</span>
+                <span class="reporter-method-output">Verify that cart matching item ID added to cart</span>
+                <span class="reporter-method-output">Delete item from cart</span>
+                <span class="reporter-method-output">Verify cart containing 0 items</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click 'Register' </span>
+                <span class="reporter-method-output">User info : Filling  info for Registration step 1</span>
+                <span class="reporter-method-output">User info : Successfully Filled  info for Registration step 1</span>
+                <span class="reporter-method-output">Click Next</span>
+                <span class="reporter-method-output">Shipping Info:  Fill in info for Registration step 2</span>
+                <span class="reporter-method-output">Shipping Info:  Successfully Filled info for Registration step 2</span>
+                <span class="reporter-method-output">Shipping Info:  Fill in info for Registration step 2</span>
+                <span class="reporter-method-output">Click Next</span>
+                <span class="reporter-method-output">Click Register button</span>
+                <span class="reporter-method-output">Verify text present: 'Registration has been completed successfully</span>
+                <span class="reporter-method-output">SIgning out</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddQtyToCart(10000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigate to brands link</span>
+                <span class="reporter-method-output">Click Acme link</span>
+                <span class="reporter-method-output">Record first item’s item id</span>
+                <span class="reporter-method-output">Check QTY input field is displayed or not</span>
+                <span class="reporter-method-output">Add quantity for the first item</span>
+                <span class="reporter-method-output">Add to cart</span>
+                <span class="reporter-method-output">Click on Cart</span>
+                <span class="reporter-method-output">Verify cart contents matching recorded items id</span>
+                <span class="reporter-method-output">Verify cart contents matching quantity</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">incrementsOfQuantityOnlyTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching for the Product with the ID 2265610 </span>
+                <span class="reporter-method-output">Click On Search </span>
+                <span class="reporter-method-output">Click on Add to Cart</span>
+                <span class="reporter-method-output">Click on View Cart</span>
+                <span class="reporter-method-output">Change item qty to 20</span>
+                <span class="reporter-method-output">Click on Checkout button</span>
+                <span class="reporter-method-output">Verifying Attention message displays - Minimum Order Quantity for Item #2265610 is 25</span>
+                <span class="reporter-method-output">Change item qty to 32</span>
+                <span class="reporter-method-output">Click on Checkout button</span>
+                <span class="reporter-method-output">Verifying Attention message displays:This product can only be purchased in increments of 25</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.DeleteItemFromShoppingCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.AddItemToShoppingCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.AddQtyToCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.RegistrationProcessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.IncrementsOfQuantityOnlyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mrosupply.automation.ForgotPasswordTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.NoDuplicateItemInShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.AddItemToShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14287 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.AddQtyToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14303 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.DeleteItemFromShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14303 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14303 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.IncrementsOfQuantityOnlyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.NoDuplicateItemInShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.RegistrationProcessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">doIHaveToSkip</span>
+                <span class="method-start">14318 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.ForgotPasswordTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testForgotPassword</span>
+                <span class="method-start">14334 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.RegistrationProcessTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegistrationProcess(earth533, earth533, Abhik, Khandelwal, 1111111111, Btm Layout, Anchorage, 99501)</span>
+                <span class="method-start">36955 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.DeleteItemFromShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeleteItemFromShoppingCartTest</span>
+                <span class="method-start">66020 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.AddItemToShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddItemToShoppingCartTest</span>
+                <span class="method-start">98773 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.NoDuplicateItemInShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoDuplicateItemInShoppingCart</span>
+                <span class="method-start">117232 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.AddQtyToCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddQtyToCart(5)</span>
+                <span class="method-start">147217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddQtyToCart(23)</span>
+                <span class="method-start">175130 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddQtyToCart(500)</span>
+                <span class="method-start">205423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddQtyToCart(1000)</span>
+                <span class="method-start">234634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddQtyToCart(10000)</span>
+                <span class="method-start">262471 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.IncrementsOfQuantityOnly_1_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testIncrementsOfQuantityOnly_1</span>
+                <span class="method-start">282395 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.UnableToAddObsoleteItemInTheCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUnableToAddObsoleteItemInTheCart</span>
+                <span class="method-start">305717 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.ItemsInCartFromProductDetailsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testItemsInCartFromProductDetailsPage</span>
+                <span class="method-start">322669 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.IncrementsOfQuantityOnlyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">incrementsOfQuantityOnlyTest</span>
+                <span class="method-start">353192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mrosupply.automation.NoDuplicateItemInShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">385508 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
